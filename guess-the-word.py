@@ -49,3 +49,6 @@ while attempts > 0:
     if '_' not in guessedWord:
         print('\nCongradulations!! You guessed the word: ' + word)
         break
+
+if attempts == 0 and '_' in guessedWord:
+    print('\nYou\'ve run out of attempts! The word was: ' + word)
