@@ -28,3 +28,6 @@ word_bank = [
     'lagoon', 'reef', 'savanna', 'jungle', 'swamp', 'marsh', 'prairie', 'tundra'
 ]
 
+word = random.choice(word_bank)
+guessedWord = ['_'] * len(word)
+attempts = 10
