@@ -31,3 +31,7 @@ word_bank = [
 word = random.choice(word_bank)
 guessedWord = ['_'] * len(word)
 attempts = 10
+
+while attempts > 0:
+    print('\nCurrent word: ' + ' '.join(guessedWord))
+    print(f'Attempts remaining: {attempts}')
