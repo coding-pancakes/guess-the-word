@@ -1,6 +1,6 @@
 # Guess The Word 🧩
 
-## About! 
+## About This Project:
 🎲 A guessing game where you have 10 attempts to guess a word chosen randomly from a long list of words. It works by prompting the user to guess one letter at a time. Built using Python.
 
 ## How I Built It:
